@@ -17,12 +17,10 @@ namespace startup
 
             Console.WriteLine("Fibonacci Numbers 1-15:");
 
-            for (int i = 0; i < 3; i++)
-            {
-                Console.WriteLine($"{i + 1}: {FibonacciNumber(i)}");
-            }
+            Tangtang tang = new Tangtang("lixiyan");
+            tang = null;
        
-            
+            Console.WriteLine("hello John");
         }
         static int FibonacciNumber(int n)
         {
